@@ -65,7 +65,9 @@ class Scanner {
     scan() {}
 }
 
-class Photocopier extends Printer, Scanner 
+class Photocopier extends Printer, Scanner {
+    
+}
 
 let printer = new OldFashionedPrinter();
 printer.scan();
