@@ -135,3 +135,210 @@
 [2021-07-22 16:39:27.474] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 364
 [2021-07-22 16:40:00.351] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 364
 [2021-07-22 16:40:23.218] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 364
+[2021-07-23 08:22:18.311] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 364
+[2021-07-23 08:22:35.711] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 364
+[2021-07-23 08:27:51.168] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-07-23 08:27:51.173] [exthost] [error] Error: <semantic> TypeScript Server Error (4.2.4)
+Debug Failure. Could not find symbol in specified module for code actions
+Error: Debug Failure. Could not find symbol in specified module for code actions
+    at getSymbolExportInfoForSymbol (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:138043:29)
+    at Object.getImportCompletionAction (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:138017:20)
+    at getCompletionEntryCodeActionsAndSourceDisplay (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119989:33)
+    at Object.getCompletionEntryDetails (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119953:30)
+    at Proxy.getCompletionEntryDetails (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:149239:35)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160359:57
+    at Object.mapDefined (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:612:30)
+    at IOSession.Session.getCompletionEntryDetails (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160357:33)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:159217:61)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160963:88
+    at IOSession.Session.executeWithRequestId (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160954:28)
+    at IOSession.Session.executeCommand (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160963:33)
+    at IOSession.Session.onMessage (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160989:35)
+    at Interface.<anonymous> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:163650:31)
+    at Interface.emit (events.js:315:20)
+    at Interface._onLine (readline.js:337:10)
+    at Interface._normalWrite (readline.js:482:12)
+    at Socket.ondata (readline.js:194:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:70680)
+	at dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:64555)
+	at dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:63414)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:62924
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at g.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:433224)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:432872)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-23 09:11:43.174] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-07-23 09:11:43.174] [exthost] [error] Error: <semantic> TypeScript Server Error (4.2.4)
+Debug Failure. Could not find symbol in specified module for code actions
+Error: Debug Failure. Could not find symbol in specified module for code actions
+    at getSymbolExportInfoForSymbol (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:138043:29)
+    at Object.getImportCompletionAction (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:138017:20)
+    at getCompletionEntryCodeActionsAndSourceDisplay (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119989:33)
+    at Object.getCompletionEntryDetails (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119953:30)
+    at Proxy.getCompletionEntryDetails (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:149239:35)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160359:57
+    at Object.mapDefined (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:612:30)
+    at IOSession.Session.getCompletionEntryDetails (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160357:33)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:159217:61)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160963:88
+    at IOSession.Session.executeWithRequestId (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160954:28)
+    at IOSession.Session.executeCommand (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160963:33)
+    at IOSession.Session.onMessage (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160989:35)
+    at Interface.<anonymous> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:163650:31)
+    at Interface.emit (events.js:315:20)
+    at Interface._onLine (readline.js:337:10)
+    at Interface._normalWrite (readline.js:482:12)
+    at Socket.ondata (readline.js:194:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:70680)
+	at dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:64555)
+	at dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:63414)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:62924
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at g.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:433224)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:432872)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-23 11:08:37.478] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-07-23 11:08:37.478] [exthost] [error] Error: <semantic> TypeScript Server Error (4.2.4)
+Debug Failure. Could not find symbol in specified module for code actions
+Error: Debug Failure. Could not find symbol in specified module for code actions
+    at getSymbolExportInfoForSymbol (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:138043:29)
+    at Object.getImportCompletionAction (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:138017:20)
+    at getCompletionEntryCodeActionsAndSourceDisplay (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119989:33)
+    at Object.getCompletionEntryDetails (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119953:30)
+    at Proxy.getCompletionEntryDetails (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:149239:35)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160359:57
+    at Object.mapDefined (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:612:30)
+    at IOSession.Session.getCompletionEntryDetails (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160357:33)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:159217:61)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160963:88
+    at IOSession.Session.executeWithRequestId (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160954:28)
+    at IOSession.Session.executeCommand (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160963:33)
+    at IOSession.Session.onMessage (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160989:35)
+    at Interface.<anonymous> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:163650:31)
+    at Interface.emit (events.js:315:20)
+    at Interface._onLine (readline.js:337:10)
+    at Interface._normalWrite (readline.js:482:12)
+    at Socket.ondata (readline.js:194:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:70680)
+	at dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:64555)
+	at dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:63414)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:62924
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at g.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:433224)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:432872)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-23 14:31:51.737] [exthost] [info] ExtensionService#_doActivateExtension vscode.grunt {"startup":false,"extensionId":{"value":"vscode.grunt","_lower":"vscode.grunt"},"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2021-07-23 14:31:51.738] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/grunt/dist/main
+[2021-07-23 14:31:51.821] [exthost] [info] ExtensionService#_doActivateExtension vscode.gulp {"startup":false,"extensionId":{"value":"vscode.gulp","_lower":"vscode.gulp"},"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2021-07-23 14:31:51.821] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/gulp/dist/main
+[2021-07-23 14:31:51.843] [exthost] [info] ExtensionService#_doActivateExtension vscode.jake {"startup":false,"extensionId":{"value":"vscode.jake","_lower":"vscode.jake"},"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2021-07-23 14:31:51.843] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/jake/dist/main
+[2021-07-23 14:31:51.864] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2021-07-23 14:31:51.865] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/npmMain
+[2021-07-23 14:31:52.716] [exthost] [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker {"startup":false,"extensionId":{"value":"ms-azuretools.vscode-docker","_lower":"ms-azuretools.vscode-docker"},"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2021-07-23 14:31:52.716] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ms-azuretools.vscode-docker-1.15.0/main
+[2021-07-23 14:54:40.579] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-07-23 14:54:40.579] [exthost] [error] Error: <semantic> TypeScript Server Error (4.2.4)
+Debug Failure. Could not find symbol in specified module for code actions
+Error: Debug Failure. Could not find symbol in specified module for code actions
+    at getSymbolExportInfoForSymbol (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:138043:29)
+    at Object.getImportCompletionAction (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:138017:20)
+    at getCompletionEntryCodeActionsAndSourceDisplay (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119989:33)
+    at Object.getCompletionEntryDetails (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119953:30)
+    at Proxy.getCompletionEntryDetails (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:149239:35)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160359:57
+    at Object.mapDefined (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:612:30)
+    at IOSession.Session.getCompletionEntryDetails (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160357:33)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:159217:61)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160963:88
+    at IOSession.Session.executeWithRequestId (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160954:28)
+    at IOSession.Session.executeCommand (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160963:33)
+    at IOSession.Session.onMessage (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160989:35)
+    at Interface.<anonymous> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:163650:31)
+    at Interface.emit (events.js:315:20)
+    at Interface._onLine (readline.js:337:10)
+    at Interface._normalWrite (readline.js:482:12)
+    at Socket.ondata (readline.js:194:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:70680)
+	at dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:64555)
+	at dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:63414)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:62924
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at g.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:433224)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:432872)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-23 14:55:29.608] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-07-23 14:55:29.608] [exthost] [error] Error: <semantic> TypeScript Server Error (4.2.4)
+Debug Failure. Could not find symbol in specified module for code actions
+Error: Debug Failure. Could not find symbol in specified module for code actions
+    at getSymbolExportInfoForSymbol (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:138043:29)
+    at Object.getImportCompletionAction (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:138017:20)
+    at getCompletionEntryCodeActionsAndSourceDisplay (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119989:33)
+    at Object.getCompletionEntryDetails (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119953:30)
+    at Proxy.getCompletionEntryDetails (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:149239:35)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160359:57
+    at Object.mapDefined (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:612:30)
+    at IOSession.Session.getCompletionEntryDetails (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160357:33)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:159217:61)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160963:88
+    at IOSession.Session.executeWithRequestId (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160954:28)
+    at IOSession.Session.executeCommand (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160963:33)
+    at IOSession.Session.onMessage (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:160989:35)
+    at Interface.<anonymous> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:163650:31)
+    at Interface.emit (events.js:315:20)
+    at Interface._onLine (readline.js:337:10)
+    at Interface._normalWrite (readline.js:482:12)
+    at Socket.ondata (readline.js:194:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:70680)
+	at dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:64555)
+	at dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:63414)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:62924
+	at fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at g.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:433224)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:432872)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)

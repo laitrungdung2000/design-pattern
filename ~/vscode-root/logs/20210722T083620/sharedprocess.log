@@ -1,1 +1,7 @@
 [2021-07-22 08:37:04.280] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-07-23 08:36:42.627] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2021-07-23 08:36:44.952] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/dungdz/Documents/udemy/design-pattern/~/vscode-root/CachedExtensionVSIXs/ms-python.vscode-pylance-2021.7.5
+[2021-07-23 08:36:47.164] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.02fab60f-626e-4c43-a770-f2e14cfff54a: ms-python.vscode-pylance
+[2021-07-23 08:36:47.241] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-python.vscode-pylance-2021.7.5
+[2021-07-23 08:36:47.245] [sharedprocess] [info] Installation completed. ms-python.vscode-pylance
+[2021-07-23 08:36:47.823] [sharedprocess] [info] Extensions installed successfully: ms-python.vscode-pylance
