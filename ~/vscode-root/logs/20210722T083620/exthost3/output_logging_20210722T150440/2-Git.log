@@ -1,0 +1,15 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/dungdz/Documents/server/vms_license_management
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dev refs/remotes/dev
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :backend/controllers/license.controller.js
+> git ls-files --stage -- /home/dungdz/Documents/server/vms_license_management/backend/controllers/license.controller.js
+> git cat-file -s 82cee94758d70694ece3f4d64c588cd2ed14b4c9

@@ -27,7 +27,13 @@ class Point {
     //     this.x = rho * Math.cos(theta);
     //     this.y = rho * Math.sin(theta);
     // }
+    static get factory() {
+        return new PointFactory();
+    }
 
+}
+
+class PointFactory {
     static newCartesianPoint(x, y) {
         return new Point(x, y);
     }
@@ -38,7 +44,7 @@ class Point {
     }
 }
 
-let p1 = Point.newCartesianPoint(4, 5);
+let p1 = PointFactory.newCartesianPoint(4, 5);
 console.log(p1);
-let p2 = Point.newPolarPoint(5, Math.PI/2);
+let p2 = Point.factory.newPolarPoint(5, Math.PI/2);
 console.log(p2);
